@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <link rel="stylesheet" href="libs/css/style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>API Name</th>
+                <th>API Description</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>OCEAN</td>
+                <td> <input placeholder ="Enter latitude" id="selLat">
+       
+    
+                    <input placeholder ="Enter longitutde" id="selLng"></td>
+                <td> <button class="btnRun">Run</button></td>
+            </tr>
+            <tr>
+                <td>SRTM1</td>
+                <td> <input placeholder ="Enter latitude" id="latInput">
+       
+    
+                    <input placeholder ="Enter longitutde" id="lngInput"></td>
+                <td> <button class="btnRun">Run</button></td>
+            </tr>
+            <tr>
+                <td>GTOPO30</td>
+                <td> <input placeholder ="Enter latitude" id="lat">
+       
+    
+                    <input placeholder ="Enter longitutde" id="lng"></td>
+                <td> <button class="btnRun">Run</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <p><span>Ocean: </span><span id="txtOcean"></span></p>
+        <p><span>Elevation: </span><span id="txtElevation2"></span></p>
+        <p><span>Elevation 2: </span><span id="txtElevation"></span></p>
+    </div>
+    <script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+    <script type="application/javascript" src="libs/js/script.js"></script>
+</body>
+</html>
